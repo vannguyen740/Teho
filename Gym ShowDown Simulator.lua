@@ -27,7 +27,7 @@ Toggle1:Callback(function(Value)
         spawn(function()
             while AutoClick do
                 DamageEvent:FireServer()
-                wait(0.00)
+                wait(0.01)
             end
         end)
     else
