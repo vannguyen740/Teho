@@ -6,7 +6,7 @@ local Window = redzlib:MakeWindow({
   SaveFolder = "testando | dinas.lua"
 })
 
-local Tab1 = Window:MakeTab({"Main", "gamepad-2"})
+local Tab1 = Window:MakeTab({"Game", "gamepad-2"})
 
 local Section = Tab1:AddSection({"game})
 
